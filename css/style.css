@@ -89,6 +89,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: flex-start;
+  margin-top: 4rem;
 }
 
 .pricing {
@@ -153,4 +155,16 @@ ol {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1rem;
+}
+
+.icons_sections {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
