@@ -168,3 +168,26 @@ ol {
   justify-content: center;
   width: 100%;
 }
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.legacy {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_section p {
+  color: #444;
+  margin-top: 0px;
+}
